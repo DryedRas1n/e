@@ -1,27 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to your CSS -->
-</head>
-<body>
-  <!-- Header Section -->
-  <header>
-    <h1>Welcome to My Website!</h1>
-  </header>
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;  /* Center content horizontally */
+  align-items: center;  /* Center content vertically */
+  height: 100vh;  /* Make the body take up the full height of the screen */
+  text-align: center;
+}
 
-  <!-- Buttons Section -->
-  <section id="buttons">
-    <button onclick="window.location.href='games.html'">Games</button>
-    <button onclick="window.location.href='apps.html'">Apps</button>
-  </section>
+/* Header Section */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
 
-  <!-- Footer Section -->
-  <footer>
-    <p>Copyright &copy; 2025 Your Name</p>
-  </footer>
+header h1 {
+  font-size: 2em;
+}
 
-</body>
-</html>
+/* Style for the buttons */
+button {
+  font-size: 24px;  /* Make the text bigger */
+  padding: 20px 40px;  /* Make the button bigger */
+  margin: 20px;  /* Add space between the buttons */
+  cursor: pointer;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;  /* Add a smooth transition effect */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
